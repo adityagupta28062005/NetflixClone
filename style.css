@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    
+}
+nav{
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+nav img{
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+.main{
+    background-image: url(assets/images/bgimage.jpg);
+    background-position: center center;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    font-weight: 900;
+    border-bottom: 5px solid red;
+    box-shadow: 10px 5px 90px rgb(94, 94, 250);
+    
+}
+.text{
+    justify-self: center;
+    width: 50%;
+    translate: 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.text> :nth-child(1){
+    position: relative;
+    display: flex;
+
+    height: 100%;
+    color: rgba(255, 255, 255, 0.977);
+    font-weight: 900;
+    font-size: 55px;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 5px;
+}
+.text >:nth-child(2){
+    position: relative;
+    display: flex;
+    height: 100%;
+    color: white;
+    font-weight: 00;
+    font-size: 55px;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+.text >:nth-child(3){
+    position: relative;
+    display: flex;
+
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: 699;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    margin: 10px;
+}
+.text >:nth-child(4){
+    position: relative;
+    display: flex;
+    height: 100%;
+    color: white;
+    font-weight: 450;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 8px 12px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.lang{
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(250, 249, 249, 0.5);
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 5px;
+    padding-right: 30px;
+}
+.redsigninbtn{
+    padding: 8px 15px;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(248, 9, 9, 0.923);
+    font-size: 14px;
+    font-weight: 800;
+    margin: 5px;
+}
+.redstartedbtn{
+    padding: 10px 25px;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 0, 0, 0.968);
+    font-size: 25px;
+    font-weight: 599;
+    border-radius: 5px;
+}
+.main input{
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(250, 249, 249, 0.5);
+    border-radius: 5px;
+    padding: 15px;
+    padding-right: 150px;
+    font-size: 16px;
+    font-weight: 500;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.679);
+}
+
+select{
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+}
