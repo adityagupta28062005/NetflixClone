@@ -25,11 +25,11 @@ nav img{
     background-position: center center;
     background-size: 100vw;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
     position: relative;
 }
 .box{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     opacity: 0.65;
     background-color: black;
@@ -111,7 +111,14 @@ nav img{
     border-radius: 5px;
     font-size: 17px;
     padding: 5px;
-    padding-right: 30px;
+    padding-right: 15px;
+}
+.lang span{
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.lang svg{
+    translate: 0px 2px;
 }
 .redsigninbtn{
     padding: 8px 15px;
@@ -130,6 +137,7 @@ nav img{
     font-size: 25px;
     font-weight: 599;
     border-radius: 5px;
+    translate: 0px 4px;
 }
 .main input{
     position: relative;
@@ -147,8 +155,3 @@ nav img{
     color: rgba(255, 255, 255, 0.679);
 }
 
-select{
-    background-color: black;
-    position: absolute;
-    z-index: -1;
-}
